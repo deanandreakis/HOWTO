@@ -3,7 +3,7 @@ Various notes, tips and tricks
 
 ## VIM on Linux
 
-1. To enable system-wide copy/paste install the vim-gtk package
+1. To enable system-wide copy/paste install the vim-gtk package. Check that the output of 'vim --version | grep clip' shows '+clipboard' and '+xterm_clipboard'.
 
 ## Ruby development on Linux
 
