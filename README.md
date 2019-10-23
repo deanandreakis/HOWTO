@@ -14,10 +14,14 @@ Various notes, tips and tricks
 
 1. Install rbenv (https://github.com/rbenv/rbenv)
 2. Install ruby-build (https://github.com/rbenv/ruby-build)
-3. Use the 'rbenv install <version>' to install a ruby version
-4. Use 'rbenv global <version>' to use the installed ruby version globally
+3. Use the 'rbenv install &lt;version&gt;' to install a ruby version
+4. Use 'rbenv global &lt;version&gt;' to use the installed ruby version globally
 5. Use 'gem install bundler' to upgrade bundler to the latest version. See (https://bundler.io/)
 
 At this point you can create project directories and then use bundler to control the exact gems needed for your project. For example, if it is a Rails project then in your project directory you can specify a Gemfile that includes 'gem rails' and then issue 'bundle install'.
 
 Another thing to note is that you can use rbenv to also specify the version of ruby to use in a project directory instead of using whatever version is defined globally.
+
+## General Linux Tips
+
+1. To resolve screen tearing issues on Ubuntu using integrated Intel graphics GPU see https://news.ycombinator.com/item?id=21331723
